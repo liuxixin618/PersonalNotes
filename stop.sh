@@ -8,6 +8,6 @@ sleep 1
 
 echo  -e "\033[34m--\033[0m"
 
-ps -ef |grep pn_uwsgi.ini | grep -v grep | awk '{print $2}' |  | xargs kill -9
+ps -ef |grep pn_uwsgi.ini | grep -v grep | awk '{print $2}' | xargs kill -9
 
 sleep 1
