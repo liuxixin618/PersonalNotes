@@ -14,7 +14,7 @@ sleep 1
 
 echo  -e "\033[34m-------------------------run start------------------------------\033[0m"
 
-uwsgi --ini pn_uwsgi
+uwsgi --ini pn_uwsgi.ini
 
 sleep 1
 
